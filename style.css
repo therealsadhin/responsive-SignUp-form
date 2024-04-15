@@ -1,0 +1,83 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    font-family: sans-serif;
+  }
+  .container{
+    height:100vh;
+    width:100%;
+    background:linear-gradient(90deg, rgba(225,186,238,1) 0%, rgba(170,226,191,1) 35%, rgba(227,209,239,1) 100%);
+    display:flex;
+    align-items:center;
+    justify-content: center;
+  }
+  .wrapper {
+    height: 40rem;
+    width: 35%;
+    /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  }
+  h1{
+    margin:3rem 3rem 0 3rem;
+  }
+  p{
+    margin-left:3rem;
+    color:#7a7c7b;
+  }
+  .uni-margin{
+    margin-left:3rem;
+  }
+  form{
+    margin-top:3rem;
+  }
+  label{
+    display:block;
+    margin-bottom:.3rem;
+  }
+  input{
+    width:80%;
+    margin-bottom:1rem;
+    padding:.7rem;
+    border-radius:.7rem;
+    border:none;
+    outline:none;
+  }
+  .button{
+    width:80%;
+    padding: .9rem;
+    color:#ffffff;
+    background-color:#4972fe;
+    border:none;
+    border-radius:.7rem;
+    margin-top:2rem;
+    cursor:pointer;
+  }
+  .login-p{
+    margin-left:3rem;
+    color:#7a7c7b;
+    margin-top:.2rem
+  }
+  a{
+    text-decoration:none;
+  }
+
+  @media  (max-width:786px) {
+    .wrapper{
+      width: 80%;
+      
+    }
+  }
+  @media  (max-width:390px) and (max-width:484px) {
+    .wrapper{
+      width: 80%;
+    }
+    .uni-margin{
+      margin-left: 1.5rem;
+    }
+  }
